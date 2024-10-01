@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+*{
+    font-family: 'Ubuntu',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right, #01022de5 30%,#00000088);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    height: 700px;
+    background-image: linear-gradient(to right, #01022de5 30%,#00000088),
+     url(download.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    font-style: italic;
+}
+.container:hover{
+    background-image: linear-gradient(to right, #01022de5 30%,transparent),
+    url(download.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+ul a:hover{
+    border-bottom: 2px solid white;
+}
+.content{
+    color: aliceblue;
+    width:50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 370px;
+    padding: 20px 20px;
+    font-size: larger;
+    
+}
+.btn {
+    position: absolute;
+    left: 130px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #e3ddff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .btn {
+    background: rgba(100, 73, 232, 0.688);
+    box-shadow: 0 0 25px rgba(93, 73, 238, 0.779);
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 5px rgba(23, 0, 229, 0.725),
+                0 0 25px rgb(46, 3, 204),
+                0 0 50px rgba(18, 4, 147, 0.7),
+                0 0 100px rgb(97, 97, 217);
+  }
+
+
+
